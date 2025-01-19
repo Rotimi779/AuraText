@@ -1,0 +1,130 @@
+/* Background Gradient for the Entire Page */
+body {
+  background: linear-gradient(to bottom, #1e3a8a, #3b82f6); /* Deep blue to soft blue */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensure full height for the background */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to start */
+  align-items: center;
+}
+
+/* Center Align the Content */
+.App {
+  text-align: center;
+  color: #f0f8ff; /* Light color to contrast the background */
+  padding: 2rem;
+  width: 100%;
+}
+
+/* Heading Styling */
+h1 {
+  font-weight: 700;
+  color: #ffffff; /* Pure white for a sharp contrast */
+  margin-top: 1rem;
+  font-size: 3rem;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); /* Stronger shadow for emphasis */
+}
+
+/* Updated color for text */
+h3 {
+  color: #a0aec0; /* Soft grayish-blue for a subtle and modern feel */
+  font-size: 1.6rem; /* Slightly larger for better emphasis */
+  font-weight: 400; /* Lighter font weight for a softer touch */
+  margin-top: 2rem; /* Slightly more spacing from the title */
+  font-family: 'Roboto', sans-serif; /* Sleek, modern, and highly readable font */
+  letter-spacing: 0.5px; /* Adds subtle spacing for a polished look */
+}
+
+
+/* Paragraph Styling */
+p {
+  font-size: 1.2rem;
+  color: #e0ffff; /* Light cyan for visibility */
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.15); /* Transparent white background */
+  border-radius: 10px;
+  border: 1px solid #add8e6; /* Light blue border */
+  max-width: 80%;
+  margin: 0 auto 1rem auto;
+  text-align: left;
+}
+
+/* Buttons with Fancy Styling */
+button, .btn {
+  background: linear-gradient(45deg, #1e90ff, #00bfff); /* Gradient blue */
+  color: #ffffff;
+  font-weight: bold;
+  padding: 12px 35px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 30px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 1rem auto;
+}
+
+button:hover, .btn:hover {
+  transform: scale(1.1); /* Slight enlargement on hover */
+  background: linear-gradient(45deg, #104e8b, #4682b4); /* Darker gradient */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:focus, .btn:focus {
+  outline: none;
+}
+
+/* Card Styling */
+.card {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card h3 {
+  color: #ffdb58; /* Gold text for distinction */
+}
+
+/* Input Field Styling */
+input[type="file"] {
+  border: 2px solid #add8e6; /* Light blue border */
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+input[type="file"]:hover {
+  border-color: #87cefa; /* Slightly darker blue on hover */
+}
+
+/* Audio Player Styling */
+audio {
+  max-width: 90%;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Loading Indicator Styling */
+p.loading {
+  color: #ffeb3b; /* Bright yellow for attention */
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Alert Styling */
+.alert-danger {
+  color: #f8d7da;
+  background-color: #721c24; /* Deep red background */
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
